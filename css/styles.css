@@ -2,7 +2,175 @@
     box-sizing: border-box;
     margin: 0 ;
     padding: 0;
+    font-family: ´sen´, sans-serif;
+    font-weight: 100;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
 }
+
+a {
+    text-decoration: none;
+}
+a:link {
+ color: #fff;
+}
+a:visited {
+    color:#fff;
+}
+a:active {
+    color: #fff;
+}
+
+body {
+    background: linear-gradient(to bottom right, #FF1493,#4682B4 );
+    height: 170vh;
+}
+
+/*CUANDO SE INCLUYA UNA SECCIÓN SE LE PONE UN COLOR DETERMINADO, 
+YA QUE EL BODY TIENE UNA GRADIENTE*/
+
+/*ESTE PARRAFO ES POR SI SE QUIERE CAMBIAR EL GRADIENTE DEL BODY*/
+
+/*
+1. Tonos cálidos (Energía y frescura):
+
+    Naranja a Amarillo:
+        #FF7F50 (Coral) → #FFD700 (Oro)
+
+    Rosa a Durazno:
+        #FF69B4 (Rosa caliente) → #FFA07A (Salmón claro)
+
+2. Tonos tierra (Natural y gourmet):
+
+    Verde a Marrón Claro:
+        #6B8E23 (Oliva oscuro) → #D2B48C (Bronceado)
+
+    Beige a Blanco:
+        #F5F5DC (Beige) → #FFFFFF (Blanco)
+
+3. Frutas vibrantes (Creatividad y frescura):
+
+    Morado a Azul:
+        #8A2BE2 (Violeta eléctrico) → #4682B4 (Azul acero)
+
+    Rosa a Amarillo:
+        #FF1493 (Rosa intenso) → #FFD700 (Oro)
+
+4. Tonos suaves y elegantes (Formalidad y minimalismo):
+
+    Beige a Rosa Claro:
+        #FFF8DC (Maíz claro) → #FFB6C1 (Rosa claro)
+
+    Gris a Blanco:
+        #D3D3D3 (Gris claro) → #FFFFFF (Blanco)
+
+5. Tonos oscuros (Lujo y sofisticación):
+
+    Negro a Dorado:
+        #000000 (Negro) → #FFD700 (Oro)
+
+    Azul Marino a Gris:
+        #191970 (Azul marino) → #696969 (Gris oscuro)
+
+6. Colores temáticos de estación:
+
+    Otoño (Naranja a Dorado):
+        #FF8C00 (Naranja oscuro) → #FFD700 (Oro)
+
+    Verano (Turquesa a Coral):
+        #40E0D0 (Turquesa) → #FF7F50 (Coral)
+
+*/
+
+
+
+
+/*-.-,:,.-,.-,.-,HEADER.-:;,.-,.,.-,.,.-,.-,:_;:_;_*/
+
+.fondo-transparente{
+    width: 98%;
+    height: 56%;
+    margin:12px;
+    border-radius: 20px;
+
+    /*TRANSPARENCIA EN EL FONDO*/
+    background: rgba( 255, 255, 255, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8.5px );
+    -webkit-backdrop-filter: blur( 8.5px );
+    
+}
+
+
+.menu__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin: 18px auto -1px;
+}
+
+.logo {
+    margin:14px;
+    font-size: 25px;
+}
+
+.menu_links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin:auto;
+    font-size: 25px;
+ 
+
+
+}
+
+
+.menu_links li a {
+      font-family: "Quicksand", serif;
+
+}
+
+
+.menu_links a:hover {
+    border-bottom: 1px solid red /*poner el color conveniente*/;
+    border-radius: 2px;
+    
+}
+
+
+
+/*.-.L-,:,..-,_:SECTION INICIO.-;.-,.-,.,._;.-,*/
+
+
+.title-inicio{
+    height: 87vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    font-family: "Playfair Display", serif;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .caja-5{
     display: grid;
