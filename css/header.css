@@ -40,8 +40,21 @@
 
 .letras-p{
     margin-top: 10px;
+    word-spacing: 5px;
+    font-size: 1.3em;
+}
+
+h2{
+    word-spacing: 5px;
+    font-size: 2em;
 }
 
 h1{
     margin-left: 10px;
+}
+
+@media(max-width:800px){
+
+  
+
 }
