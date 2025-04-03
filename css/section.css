@@ -2,8 +2,9 @@
     min-height: 55dvh;
     background: rgb(17, 199, 17);
     display: grid;
-    grid-template-areas: "area-1"
-                         "area-2";
+    grid-template-areas:
+    "area-1"
+    "area-2";
     gap: 10px;
 }
 

@@ -1,21 +1,9 @@
-*{
-    text-transform: capitalize;
-    text-decoration: none;
-    list-style: none;
-}
-
 .header{
+    width: 100%;
     min-height: 100dvh;
     color: rgb(252, 252, 252);
     text-shadow: 0 0 20px  rgba(0, 255, 191, 0.884);
-}
-
-.header--fondo{
-    background-image: url(../images/fondoheader.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: url('../images/fondoheader.webp') center/cover no-repeat fixed;
 }
 
 .header__nav{
@@ -54,7 +42,5 @@ h1{
 }
 
 @media(max-width:800px){
-
-  
 
 }
