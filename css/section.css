@@ -1,5 +1,5 @@
 .precios{
-    min-height: 55dvh;
+    min-height: 100dvh;
     background: rgb(17, 199, 17);
     display: grid;
     grid-template-areas:
@@ -10,6 +10,7 @@
 
 .precios__titulo{
     grid-area: area-1;
+    background-color: aqua;
     display: flex;
     align-items: flex-end;
 }
@@ -22,17 +23,21 @@
 }
 
 .precios-img{
-   padding: 25px;
-   border-radius: 20px;
-   background: red;
+    padding: 25px;
+    width: 20%;
+    height: 80%;
+   border-radius: .5rem;
    display: flex;
    flex-direction: column;
-   gap: 150px;
+   align-items: center;
+   justify-content: space-evenly;
+   gap: 50px;
    text-align: center;
-   background: rgba(0, 0, 255, 0.267);
+   background: rgba(13, 13, 204, 0.945);
 }
 
 .precio{
+    width: 60%;
     border-radius: 6px;
     padding: 5px 2px;
     background: rgb(255, 255, 255);
