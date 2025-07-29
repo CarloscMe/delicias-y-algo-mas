@@ -8,8 +8,20 @@
     gap: 10px;
 }
 
+.precios--1{
+    min-height:50dvh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+}
+
+.img, text {
+    text-align: center;
+}
+
 .precios__titulo{
     grid-area: area-1;
+    height: 40%;
     background-color: aqua;
     display: flex;
     align-items: flex-end;
