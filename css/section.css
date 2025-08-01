@@ -9,14 +9,16 @@
 }
 
 .precios--1{
+    background-color: #38bd04;
     min-height:50dvh;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 2fr;
     grid-template-rows: 1fr ;
 }
 
-.img, text {
+.img, .text {
     text-align: center;
+    border: 1px solid rgb(250, 115, 5);
 }
 
 .precios__titulo{
@@ -59,4 +61,35 @@ h3{
     margin-left: 14%;
     font-size: 2em;
     color: rgb(255, 255, 255);
+}
+
+.titulo-3{
+    min-height: 40dvh;
+    background-color: #05b139;
+}
+
+#t-3{
+    text-align: center;
+}
+
+.titulo--3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#caja-1{
+    width: 40%;
+    padding: 0.5rem;
+    border: none ;
+    border-radius: 10px;
+}
+
+.titulo-9{
+    min-height: 40dvh;
+    background-color: rgb(5, 148, 148);
+}
+
+.titulo--9{
+    display: flex;
 }
