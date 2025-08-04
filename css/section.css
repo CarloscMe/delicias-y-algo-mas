@@ -16,11 +16,6 @@
     grid-template-rows: 1fr ;
 }
 
-.img, .text {
-    text-align: center;
-    border: 1px solid rgb(250, 115, 5);
-}
-
 .precios__titulo{
     grid-area: area-1;
     height: 40%;
@@ -92,4 +87,12 @@ h3{
 
 .titulo--9{
     display: flex;
+}
+
+.img-1{
+    display:block ;
+    width: 40%;
+    height: 80%;
+    margin:10px auto;
+    border-radius: 1.4rem ;
 }
