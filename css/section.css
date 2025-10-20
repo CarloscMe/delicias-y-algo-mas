@@ -9,10 +9,10 @@
 }
 
 .precios--1{
-    background-color: #38bd04;
-    min-height:50dvh;
+    background-color: #16703c;
+    min-height:60dvh;
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr ;
 }
 
@@ -91,10 +91,14 @@ h3{
     display: flex;
 }
 
+.img, .text{
+    padding: 15px;
+}
+
 .img-1{
     display:block ;
-    width: 40%;
-    height: 80%;
-    margin:10px auto;
+    width: 35%;
+    height: 100%;
+    margin: 0 auto;
     border-radius: 1.4rem ;
 }
